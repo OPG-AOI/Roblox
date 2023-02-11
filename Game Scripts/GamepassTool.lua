@@ -1,4 +1,4 @@
--- BambooYT :)
+-- Made by  BambooYT :)
 -- I suggest storing this script inside ServerScriptService or Workspace
 
 local Id = 00000000 -- Put the gamepass id here, it is found in the url and is the number part
