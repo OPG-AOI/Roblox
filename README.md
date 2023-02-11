@@ -1,3 +1,2 @@
-# Roblox
- Where I put my Roblox games.
- These games are not copyrighted of any sort and are open source. Feel free to customize and use them in any stupid way you could think of. I will also add some stupid code to this because I will be bored.
+This is where I will put Open-Source Roblox game templates. They have no copyright, and the same apply's for the scripts in the Game Scripts folder. Please consider checking out my channel:
+https://youtube.com/@bamboozel
