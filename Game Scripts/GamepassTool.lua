@@ -3,7 +3,7 @@
 
 local Id = 00000000 -- Put the gamepass id here, it is found in the url and is the number part
 local VipPlayers = {"YoBambooCool"} -- Any person's name put here will get the gamepass for free
-local ToolName = {"Fly"} -- Put the name of your tool here that MUST be stored in ServerStorage
+local ToolName = {"Fly", "RPG"} -- Put the name of your tool here that MUST be stored in ServerStorage
 
 local function FindPlayer(Plr)
 	for Num, Pler in pairs(VipPlayers) do
