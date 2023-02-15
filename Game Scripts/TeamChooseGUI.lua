@@ -1,5 +1,6 @@
 -- The name of the team to join
-local teamName = "Red Team"
+local teamName = "Bamboo's Army"
+local teamName2 = "Furrballs Army"
 
 -- Get the player's character and the player's GUI
 local player = game.Players.LocalPlayer
@@ -11,6 +12,12 @@ local button = Instance.new("TextButton")
 button.Text = "Join " .. teamName
 button.Size = UDim2.new(0, 200, 0, 50)
 button.Position = UDim2.new(0.5, -100, 0.5, -25)
+button.Parent = gui
+
+local button2 = Instane.new(TextButton)
+button.Test = "Join " .. teamName2
+button/Size = UDim2.new(0, 200, 0, 50)
+--Location Script here
 button.Parent = gui
 
 -- When the button is clicked
