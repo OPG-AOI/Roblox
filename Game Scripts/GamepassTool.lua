@@ -1,6 +1,6 @@
-local gamePassId = 00000000
+local gamePassId = 12345678
 local vipPlayers = {"YoBambooCool"}
-local toolNames = {"Fly", "RPG", "Nimbus Cloud", ""}
+local toolNames = {"Fly", "RPG", "Nimbus Cloud"}
 
 local function isVipPlayer(playerName)
     for _, name in ipairs(vipPlayers) do
