@@ -24,7 +24,7 @@ button.MouseButton1Click:Connect(function()
         print("You have joined the " .. teamName .. " team!")
 
         -- Remove the button
-        button:Destroy()
+        button.Parent:Destroy()
     else
         print("Sorry, the " .. teamName .. " team could not be found.")
     end
