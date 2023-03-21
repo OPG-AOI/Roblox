@@ -2,6 +2,7 @@
 local teams = {
     {name = "Bamboo's Army", button = nil},
     {name = "Furrballs Army", button = nil},
+    {name = "Birch Tree's Army", button = nil}
 }
 
 -- Get the player's character and the player's GUI
