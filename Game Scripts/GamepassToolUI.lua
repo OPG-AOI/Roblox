@@ -1,5 +1,6 @@
 -- Made by BambooYT
-local gamepassId = 123456789
+local gamepassId = 123456789 
+local part = new.Instance("Part")
 
 -- The ID of the tool to be given to the player
 local toolId = 987654321
@@ -33,7 +34,7 @@ button.MouseButton1Click:Connect(function()
             tool.Parent = character
             print("You have purchased the gamepass and received a tool!")
         else
-            print("Sorry, there was an error purchasing the gamepass.")
+            print("Sorry, there was an error purchasing the gamepass. You are now a bozo.")
         end
     end
 end)
