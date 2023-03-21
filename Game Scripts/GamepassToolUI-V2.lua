@@ -1,4 +1,4 @@
-local gamepassId = 123456789
+local gamepassId = 76026698
 local tool = script.GetChildren
 
 local player = game.Players.LocalPlayer
@@ -13,11 +13,10 @@ script.parent.MouseButton1Click:Connect:function()
         end)
      if success and result then
             -- Give the player the tool
-            local tool = game:GetService("InsertService"):LoadAsset(toolId):GetChildren()[1]
             tool.Parent = character
-            print("You have purchased the gamepass and received a tool!")
+            print("You have purchased the gamepass and received a tool! Congradulations! Your not a bozo!")
         else
-            print("Sorry, there was an error purchasing the gamepass. You are now a bozo.")
+            print("Lets just say that you are under 13 years old and that you are now a bozo.")
         end
     end
 end
