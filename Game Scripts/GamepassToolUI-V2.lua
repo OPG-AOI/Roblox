@@ -6,7 +6,7 @@ local character = player.character or player.CharacterAdded:Wait()
 
 script.parent.MouseButton1Click:Connect:function()
     if player:HasGamePass(gamepassId) then
-        print("Number 15: Burger king foot lettuce. You are now a bozo, bozo.")
+        print("Number 15: Burger king foot lettuce. (aka, didn't work)")
     else
         local success, result = pcall(function()
             return game.MarketplaceService:PromptGamePassPurchase(player, gamepassId)
