@@ -10,14 +10,7 @@ local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local gui = player:WaitForChild("PlayerGui")
 
--- Create the UI buttons
-for _, team in ipairs(teams) do
-    local button = Instance.new("TextButton")
-    button.Text = "Join " .. team.name
-    button.Size = UDim2.new(0, 200, 0, 50)
-    button.Position = UDim2.new(0.5, -100, 0.5 + 60 * (_ - 1 - #teams / 2), -25)
-    button.Parent = gui
-    team.button = button
+local button = script.Parent
 
     -- When the button is clicked
     button.MouseButton1Click:Connect(function()
